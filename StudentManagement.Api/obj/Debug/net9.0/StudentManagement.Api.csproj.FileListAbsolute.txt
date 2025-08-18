@@ -127,3 +127,6 @@ E:\DotNet\StudentManagement.Api\obj\Debug\net9.0\StudentManagement.Api.pdb
 E:\DotNet\StudentManagement.Api\obj\Debug\net9.0\StudentManagement.Api.genruntimeconfig.cache
 E:\DotNet\StudentManagement.Api\obj\Debug\net9.0\ref\StudentManagement.Api.dll
 E:\DotNet\StudentManagement.Api\obj\Debug\net9.0\StudentManagement.Api.sourcelink.json
+E:\DotNet\StudentManagement.Api\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\DotNet\StudentManagement.Api\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\DotNet\StudentManagement.Api\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
