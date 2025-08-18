@@ -1,0 +1,29 @@
+GET http://localhost:5274/students
+###
+GET http://localhost:5274/students/CS101
+
+###
+POST http://localhost:5274/students
+Content-Type: application/json 
+
+{
+  "name": "Merry Jane",
+  "major": "Information Technology",
+  "dob": "2003-05-12",
+  "gpa": 111.1
+}
+// space is required 8th line should be empty 
+
+###
+PUT http://localhost:5274/students/IT103
+Content-Type: application/json 
+
+{
+  
+  "name": "erry Janeii",
+  "dob": "2003-05-12",
+  "gpa": 9.1
+}
+
+###
+DELETE http://localhost:5274/students/IT103
