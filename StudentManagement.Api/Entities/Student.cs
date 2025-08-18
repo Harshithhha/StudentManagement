@@ -12,5 +12,5 @@ public class Student
     public double GPA { get; set; }
 
     
-       private Student() { }
+       public Student() { }
 }

@@ -7,5 +7,5 @@ builder.Services.AddSqlite<StudentManagementContext>(connectionString);
 var app = builder.Build();
 
 app.MapStudentEndpoints();
-
+app.MigrateDatabase();
 app.Run();

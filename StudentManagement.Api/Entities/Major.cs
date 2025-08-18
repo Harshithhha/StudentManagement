@@ -13,6 +13,7 @@ public class Major
 
     public override string ToString()
     {
+        
         return $"{ID} - {Name}";
     }
 }
