@@ -12,14 +12,14 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// Enable Swagger UI
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-    app.MapGet("/", () => Results.Redirect("/swagger"));
-}
+// Enable Swagger for all environments
+app.UseSwagger();
+app.UseSwaggerUI();
 
+// Root redirects to Swagger
+app.MapGet("/", () => Results.Redirect("/swagger"));
+
+// Map endpoints and run migrations
 app.MapStudentEndpoints();
 app.MigrateDatabase();
 
